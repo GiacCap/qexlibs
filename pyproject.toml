@@ -1,0 +1,25 @@
+[project]
+name = "qexlibs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rajarshi Tiwari", email = "rajarshi.tiwari@ichec.ie" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "myqlm>=1.13.2",
+    "pulser>=1.8.0",
+    "qse[myqlm,pulser]>=1.1.15",
+    "qutip>=5.2.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.14,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "ipython>=8.39.0",
+]
