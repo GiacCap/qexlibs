@@ -27,3 +27,10 @@ pip install "qse[myqlm,pulser]"   # both backends
 ```
 
 The [pyproject.toml](./pyproject.toml) file can be used via `uv` package manager to maintain a cumulative dependencies of the libraries that we add.
+
+If one needs a more traditional `requirements.txt` file to install the necessary libraries, one can export
+on using -
+
+```bash
+uv export --format requirements.txt --no-hashes --output-file=requirements.txt 
+```
