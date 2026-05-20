@@ -34,9 +34,9 @@ Quantum Executor, provides classical simulated circuit runs, in a hardware agnos
 ```bash
 
 pip install quex                # basic installation, Numpy
-pip install "qse[nvidia]"       # nvidia backend, Cupy and Jax
-pip install "qse[amd]"          # amd backend, Cupy and Jax
-pip install "qse[metal]"        # apple-metal backend
+pip install "quex[nvidia]"       # nvidia backend, Cupy and Jax
+pip install "quex[amd]"          # amd backend, Cupy and Jax
+pip install "quex[metal]"        # apple-metal backend
 ```
 
 ## Exporting environment
