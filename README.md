@@ -4,10 +4,10 @@ This is a meta repository that contains links to externally hosted libraries.
 
 ## List of libraries
 
-| No.| Name | URL                          | Documentation               |
-|--- |---   |---                           |---                          |
-| 1. | QSE  | https://github.com/ICHEC/qse | https://ichec.github.io/qse |
-| 2. | | |
+| No.| Name | URL                           | Documentation                |
+|--- |---   |---                            |---                           |
+| 1. | QSE  | https://github.com/ICHEC/qse  | https://ichec.github.io/qse  |
+| 2. | QUEX | https://github.com/ICHEC/quex | https://ichec.github.io/quex |
 | 3. | | |
 
 ## QSE
@@ -25,6 +25,21 @@ pip install "qse[pulser]"         # pulser backend
 pip install "qse[myqlm]"          # myqlm backend
 pip install "qse[myqlm,pulser]"   # both backends
 ```
+
+
+## QUEX
+
+Quantum Executor, provides classical simulated circuit runs, in a hardware agnostic way. It targets acceleration via `cupy` and `jax` and works on CPU, Nvidia GPUs and AMD GPUs.
+
+```bash
+
+pip install quex                # basic installation, Numpy
+pip install "qse[nvidia]"       # nvidia backend, Cupy and Jax
+pip install "qse[amd]"          # amd backend, Cupy and Jax
+pip install "qse[metal]"        # apple-metal backend
+```
+
+## Exporting environment
 
 The [pyproject.toml](./pyproject.toml) file can be used via `uv` package manager to maintain a cumulative dependencies of the libraries that we add.
 
