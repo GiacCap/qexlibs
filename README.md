@@ -4,11 +4,15 @@ This is a meta repository that contains links to externally hosted libraries.
 
 ## List of libraries
 
-| No.| Name | URL                           | Documentation                |
-|--- |---   |---                            |---                           |
-| 1. | QSE  | https://github.com/ICHEC/qse  | https://ichec.github.io/qse  |
-| 2. | QUEX | https://github.com/ICHEC/quex | https://ichec.github.io/quex |
-| 3. | | |
+| No.| Name         | URL                                                        | Documentation                                                    |
+|--- |--------------|------------------------------------------------------------|------------------------------------------------------------------|
+| 1. | QSE          | https://github.com/ICHEC/qse                               | https://ichec.github.io/qse                                      |
+| 2. | QUEX         | https://github.com/ICHEC/quex                              | https://ichec.github.io/quex                                     |
+| 3. | QCAP         | https://github.com/QCT-UEA-management/QCAP                 | https://munich-quantum-software-stack.github.io/MQSS-Interfaces/ |
+| 4. | QC2          | https://github.com/qc2nl/qc2                               | https://qc2.readthedocs.io/en/latest/                            |
+| 5. | QQuantLib    | https://github.com/NEASQC/FinancialApplications            | https://neasqc.github.io/FinancialApplications/dl.html           |
+| 6. | WNTR-Quantum | https://github.com/quantumapplicationlab/wntr-quantum      | N/A (??)                                                         |
+| 7. | QSVM4EO      | https://github.com.mcas.ms/ICHEC/qsvm4eo                   | N/A (??)                                                         |
 
 ## QSE
 
